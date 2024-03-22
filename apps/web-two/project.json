@@ -1,0 +1,9 @@
+{
+	"name": "@acme/web-two",
+	"$schema": "../../node_modules/nx/schemas/project-schema.json",
+	"targets": {
+		"build": {
+			"outputs": ["{projectRoot}/.next"]
+		}
+	}
+}

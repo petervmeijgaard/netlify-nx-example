@@ -1,0 +1,4 @@
+[dev]
+targetPort = 3001
+port = 8881
+autoLaunch = false

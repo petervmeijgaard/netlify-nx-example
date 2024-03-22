@@ -1,0 +1,7 @@
+## Files
+/pnpm-lock.yaml
+
+## Directories
+/.nx/cache
+/apps/web-one/.next
+/apps/web-two/.next

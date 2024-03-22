@@ -1,0 +1,20 @@
+{
+	"name": "netlify-nx-example",
+	"private": true,
+	"scripts": {
+		"dev": "nx run-many --target=dev",
+		"build": "nx affected --target=build",
+		"start": "nx run-many --target=build",
+		"lint": "nx affected --target=lint",
+		"format": "prettier --check --cache .",
+		"postinstall": "manypkg check"
+	},
+	"keywords": [],
+	"author": "Peter van Meijgaard <petervanmeijgaard@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"@manypkg/cli": "^0.21.2",
+		"nx": "^18.1.2",
+		"prettier": "^3.2.5"
+	}
+}
